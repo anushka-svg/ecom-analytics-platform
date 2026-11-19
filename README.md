@@ -2,10 +2,6 @@
 
 An end-to-end data science and business intelligence system built on 100,000 Amazon-style sales transactions — combining interactive dashboards, customer analytics, product performance analysis, and multi-model revenue forecasting.
 
-## 📄 Report
-- Full analysis report: [PDF](https://github.com/soufianboukir/ecom-analytics-platform/blob/main/reports/customer-analystics-and-revenue-forecasting-system.pdf)
-- Streamlit dashboard: [Live App](https://ecom-analytics-forecasting-platform.streamlit.app/)
-
 <img width="2048" height="1032" alt="image" src="https://github.com/user-attachments/assets/a8200779-4919-4896-9408-4b345627051e" />
 
 
@@ -112,38 +108,7 @@ High-level business snapshot with 4 KPI cards, monthly revenue trend, top 5 coun
 
 ---
 
-## Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/soufianboukir/ecom-analytics-platform.git
-cd ecom-analytics-platform
-```
-
-### 2. Create a virtual environment
-```bash
-python -m venv .venv
-source .venv/bin/activate        # Linux / macOS
-.venv\Scripts\activate           # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-```bash
-streamlit run app/app.py
-```
-
-Then open your browser at `http://localhost:8501`
-
 ### Sidebar Filters
 - **Date Range** — Filter all pages by order date
 - **Category** — Filter by product category (available on relevant pages)
 
-built with ❤️ by **soufian**.
